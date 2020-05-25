@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample App</title>
+</head>
+<body>
+<h1>LOGIN</h1>
+
+<form method="post" action="/login">
+    <p>ユーザーID<input type="text" name="id" size="30" placeholder="id" ></p>
+    <p>パスワード<input type="text" name="pass" size="30" placeholder="password" ></p>
+    <p><input type="submit" value="login"></p>
+</form>
+
+{{.error}}
+</body>
+</html>
